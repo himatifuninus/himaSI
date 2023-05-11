@@ -26,11 +26,7 @@ const PesertaIcc = () => {
   };
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      getUsers();
-    }, 1000);
-
-    return () => clearInterval(interval);
+    getUsers();
   }, []);
 
   if (loading) {

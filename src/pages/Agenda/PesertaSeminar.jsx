@@ -26,7 +26,7 @@ const PesertaSeminar = () => {
   };
 
   useEffect(() => {
-    getUsers;
+    getUsers();
   }, []);
 
   if (loading) {
